@@ -18,8 +18,11 @@ footer {
   color: white;
   text-align: center;
 }
-#learn-more{
+.learn-more{
   font-weight: bold;
+}
+.learn-more:hover {
+  background-color: #FF4F30;
 }
 #navbar{
   background: linear-gradient(135deg, #FF4F30, #1A091F);
@@ -44,7 +47,7 @@ footer {
 @media screen and (min-width: 320px) {
   #myInfo {
     font-size: calc(16px + 6 * ((100vw - 320px) / 680));
-    top: 30%;
+    top: 40%;
   }
 }
 @media screen and (min-width: 1000px) {

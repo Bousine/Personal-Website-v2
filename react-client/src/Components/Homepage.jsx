@@ -8,7 +8,7 @@ function Homepage(){
       <h1 id="title">{myInfo.title}</h1>
       <h3 id="subtitle">{myInfo.subtitle}</h3>
       <div className="text-center">
-        <Button id="learn-more" variant="outline-dark" size="lg">Learn more</Button>
+        <Button className="learn-more" variant="outline-dark" size="lg">Learn more</Button>
       </div>
     </div>
   )
