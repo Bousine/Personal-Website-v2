@@ -1,8 +1,8 @@
 body{
   font-family: 'Comfortaa', cursive;
   background-image: url('assets/backgroundimage2.jpg');
-  background-position: center center;
   background-repeat: no-repeat;
+  background-position: center center;
   background-attachment: fixed;
   background-size: cover;
 }
@@ -21,7 +21,7 @@ footer {
 .learn-more{
   font-weight: bold;
 }
-.learn-more:hover {
+.learn-more:hover{
   background-color: #FF4F30;
 }
 #navbar{
