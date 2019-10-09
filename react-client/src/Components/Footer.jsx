@@ -1,5 +1,4 @@
 import React from 'react'
-import FooterIcon from './FooterIcon'
 import Icon from './icons'
 
 function Footer(){
