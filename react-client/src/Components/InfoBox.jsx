@@ -1,11 +1,12 @@
 import React from 'react'
+import myInfo from './myInfo'
 
-function InfoBox(props){
+function InfoBox(){
   return (
     <div className="modalContainer">
       <div className="modalContent">
-        <span className="close" onClick={()=>props.handleClick()}>&times;</span>
-        <p>Some text in the Modal..</p>
+        <p>{myInfo.firstp}</p>
+        <p>{myInfo.secondp}</p>
       </div>
     </div>
   )

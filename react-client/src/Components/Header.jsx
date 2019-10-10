@@ -11,7 +11,7 @@ function Header(){
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav id="navbuttons" className="mr-auto justify-content-center">
-            <Nav.Link href="#home">Home</Nav.Link>
+            <Nav.Link href="#home" active>Home</Nav.Link>
             <Nav.Link href="#projects">Projects</Nav.Link>
             <Nav.Link href="#resume">Resume</Nav.Link>
           </Nav>
