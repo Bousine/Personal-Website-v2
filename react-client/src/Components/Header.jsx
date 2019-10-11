@@ -12,8 +12,8 @@ function Header(){
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav id="navbuttons" className="mr-auto justify-content-center">
             <Nav.Link href="#home" active>Home</Nav.Link>
-            <Nav.Link href="#projects">Projects</Nav.Link>
-            <Nav.Link href="#resume">Resume</Nav.Link>
+            <Nav.Link href="https://github.com/Bousine" target="_blank">Projects</Nav.Link>
+            <Nav.Link href="../../dist/assets/Resume.pdf" download>Resume</Nav.Link>
           </Nav>
         </Navbar.Collapse>
         <Navbar.Brand id="brandname">Asif Hasan</Navbar.Brand>

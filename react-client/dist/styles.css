@@ -36,6 +36,7 @@ footer {
 #navbuttons{
   font-weight: 700;
 }
+
 .modalContainer {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
@@ -56,11 +57,11 @@ footer {
   border: 1px solid #FF4F30;
   width: 80%; /* Could be more or less, depending on screen size */
   animation-name: expand;
-  animation-duration: 1s;
+  animation-duration: 0.2s;
 }
 @keyframes expand {
-  from {width: 0%; height: 0%; opacity: 0}
-  to {width: 80%; height: auto; opacity: 1}
+  from {width: 0%; opacity: 0}
+  to {width: 80%; opacity: 1}
 }
 #myInfo{
   position: absolute;

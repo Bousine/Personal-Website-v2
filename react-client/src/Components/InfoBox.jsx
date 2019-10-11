@@ -7,6 +7,7 @@ function InfoBox(){
       <div className="modalContent">
         <p>{myInfo.firstp}</p>
         <p>{myInfo.secondp}</p>
+        <p style={{fontStyle: 'italic'}}>{myInfo.thirdp}</p>
       </div>
     </div>
   )
