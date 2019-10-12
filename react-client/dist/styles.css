@@ -25,6 +25,14 @@ footer {
 }
 .learn-more{
   font-weight: bold;
+  color: black;
+  border-width: 1px;
+  border-color: black;
+}
+@media only screen and (max-width: 768px) {
+  .learn-more {
+    background-color: #FF4F30 !important;
+  }
 }
 .learn-more:hover, .learn-more:focus, .learn-more:active{
   background-color: #FF4F30 !important;
