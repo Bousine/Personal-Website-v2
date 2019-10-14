@@ -5,6 +5,8 @@ html{
 }
 body{
   min-height: 100%;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
   font-family: 'Comfortaa', cursive;
   background-image: url('assets/backgroundimage2.jpg');
   background-repeat: no-repeat;
