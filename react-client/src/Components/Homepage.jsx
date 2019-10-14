@@ -10,15 +10,12 @@ class Homepage extends React.Component{
   componentDidMount(){
     var modal = document.getElementsByClassName("modalContainer")[0];
     var btn = document.getElementsByClassName("learn-more")[0];
-    var body = document.getElementsByTagName("BODY")[0];
     btn.onclick = function() {
       modal.style.display = "block";
-      body.style.overflow = "hidden";
     }
     window.onclick = function(event) {
       if (event.target == modal) {
         modal.style.display = "none";
-        body.style.overflow = "auto";
       }
     }
   }
